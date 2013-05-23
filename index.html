@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+
+<head>
+   	<meta charset="utf-8">
+
+   	<title>The Next Sound</title>
+	
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	
+   	<script type="text/javascript" src="../jquery.js"></script>
+	<script type="text/javascript" src="default.js"></script>
+
+</head>
+
+<body>
+	<h1>The Next Sound</h1>
+	
+	<div id="video">
+		<video class="videoPlayer" id="scene1" preload="auto" src="../scenes/blue/scene1.mp4" type="video/mp4"></video>
+	</div>
+	
+	<div id="controls">
+		<a href="#play" class="start">Start</a> -
+		<a href="#play" class="playpause">Play/Pause</a>
+	</div>
+	
+	<div id="change">
+		<a href="#green" class="change green" data-genre="green">green</a>
+		<a href="#red" class="change red" data-genre="red">red</a>
+		<a href="#blue" class="change blue active" data-genre="blue">blue</a>
+	</div>
+	
+</body>
+</html>
+
