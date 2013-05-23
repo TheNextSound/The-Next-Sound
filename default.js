@@ -16,7 +16,7 @@ $(document).ready(function(){
 	totalVideo = 5;
 	currentVideo = 1;
 	currentGenre = 'blue';
-	folder = '../scenes/';
+	folder = 'scenes/';
 	
 	function newVideo(i,g,c){ //i = ID, g = Genre, c = Class
 		var html = '<video class="videoPlayer '+c+'" id="scene'+i+'" preload="auto" src="'+folder+g+'/scene'+i+'.'+videoType+'" type="video/'+videoType+'"></video>';
